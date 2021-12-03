@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+  <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<!-- Add your site or application content here -->
+<p>กำลัง redirect ไปยัง store ...</p>
+
+<script>
+  $(document).ready(function () {
+    if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
+      window.location.href = 'https://play.google.com/store/apps/details?id=th.mi.navy.navy_encrypt';
+    } else if (navigator.userAgent.toLowerCase().indexOf("iphone") > -1) {
+      window.location.href = 'https://apps.apple.com/us/app/%E0%B8%A3-%E0%B8%9A%E0%B8%AA-%E0%B8%87%E0%B9%84%E0%B8%9F%E0%B8%A5/id1597636172';
+    }
+  });
+</script>
+</body>
+
+</html>
